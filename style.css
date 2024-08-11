@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#page{
+    width: 400px;
+    min-height: 625px;
+    border-style: solid;
+    border-color: black;
+    margin: auto;
+}
+/*Banner*/
+#banner{
+    width: 398px;
+    min-height: 120px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+/*Logo*/
+#logo{
+    width: 100px;
+    min-height: 100px;
+    border-style: none;
+    border-width: 1px;
+    background-color: transparent;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+}
+/*Social Media Icons*/
+#social{
+    width: 200px;
+    min-height: 40px;
+    border-style: none;
+    border-width: 1px;
+    background-color: transparent;
+    float: right;
+    position: relative;
+    top: 30px;
+    right:10px
+}
+#icon{
+    float: right;
+    margin-left: 10px;
+
+}
+#name{
+    width: 200px;
+    float: right;
+    border-style: none;
+    position: relative;
+    right: 25px;
+    top: 15px;
+    
+}
+h1{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/*Main Menu*/
+#mainmenu{
+    width: 398px;
+    height: 50px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: deepskyblue;
+    margin: auto;
+}
+#mainmenu ul{
+    list-style-type: none;
+}
+#mainmenu li{
+    border-style: solid;
+    border-width: 3px;
+    width: 80px;
+    border-radius: 5px;
+    border-color: rgb(2, 93, 123);
+    background-color: rgb(2, 93, 123);
+    float: left;
+    padding: 4px;
+    margin-left: 5px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    
+}
+#mainmenu ul a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+#mainmenu ul a:link{
+    color: deepskyblue;
+}
+#mainmenu ul a:visited{
+    color: rgb(164, 63, 1);
+}
+#mainmenu ul a:hover{
+    color: rgb(14, 3, 130);
+    text-decoration: underline;
+}
+#mainmenu ul a:active{
+    color: red;
+    text-decoration: underline;
+}
+
+/*Content and Side Menu*/
+#content{
+    width: 300px;
+    min-height: 400px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: aquamarine;
+    float: left;
+}
+#sidemenu{
+    width: 96px;
+    min-height: 400px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: royalblue;
+    float: left;
+}
+.image{
+    float: left;
+    width: 100px;
+    margin: 5px;
+}
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.myHeader{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    text-align: left;
+    font-weight: bolder;
+}
+#sidemenu ul{
+    list-style-type: none;
+    text-align: left;
+    margin-left: 10px;
+}
+
+/* Bottom Menu */
+#bottommenu{
+    width: 398px;
+    min-height: 50px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: aquamarine;
+    float: left;
+    text-align: center;
+    color: black;
+}
+#bottommenu a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: royalblue;
+    text-decoration: none;
+}
+#bottommenu a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.smalltext{
+    font-size: 9px;
+    position: relative;
+    top: 7px;
+}
